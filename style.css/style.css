@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background-color: #ebe3e3;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.container .x{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
+.x p span{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+.x p{
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+
+.left li{
+    padding: 20px;
+    margin: 10px;
+}
+.right li{
+    padding: 20px;
+    margin: 10px;
+}
+ul{
+    display: flex;
+}
+.left ul:first-child li{
+    letter-spacing: 5px;
+    color: black;
+    font-weight: bold;
+}
+.left ul:last-child li{
+    letter-spacing: 10px;
+}
+.right ul li{
+    letter-spacing: 8px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px;
+    color: black;
+    margin: 20px;
+}
+section h1{
+    border-bottom: 1px solid rgb(26, 22, 22);
+    padding-bottom: 30px;
+}
+.box{
+    position: relative;
+    margin: 15px;
+}
+.positionn{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.positionn p{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.mother-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+section div h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(26, 22, 22);
+}
+section div p{
+    padding-top: 30px;
+}
+.card{
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card img{
+    width: 300px;
+    margin-top: 20px;
+}
+.card div p{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+.people{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+section div h3{
+    padding-bottom: 30px;
+    font-size: 30px;
+    border-bottom: 1px solid rgb(26, 22, 22);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{
+    height: 30px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
